@@ -1,0 +1,9 @@
+
+services:
+  - type: web
+    name: gary-gym-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python asistente_gym_gary_seguimiento.py
+    autoDeploy: false
